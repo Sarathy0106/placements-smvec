@@ -1,0 +1,7 @@
+HOME WORK
+
+1.Reverse a string without slicing.
+2.Check palindrome without using reverse.
+3.Count vowels and consonants.
+4.Find duplicate characters.
+5.Remove special characters.

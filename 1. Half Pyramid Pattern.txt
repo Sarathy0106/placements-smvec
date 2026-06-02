@@ -1,0 +1,113 @@
+1. Half Pyramid Pattern
+Question
+Print the following pattern:
+1
+12
+123
+1234
+12345
+Logic
+Row 1 → 1
+Row 2 → 1 2
+Row 3 → 1 2 3
+Outer loop → Rows
+Inner loop → Print 1 to i
+
+2. Inverted Half Pyramid Pattern
+Question
+12345
+1234
+123
+12
+1
+Logic
+Row 1 → 1 to 5
+Row 2 → 1 to 4
+Row 3 → 1 to 3
+
+3. Repeated Number Pyramid
+Question
+1
+22
+333
+4444
+55555
+Logic
+Row Number = Printed Value
+1 → print 1 once
+2 → print 2 twice
+3 → print 3 three times
+
+4. Inverted Repeated Number Pyramid
+Question
+55555
+4444
+333
+22
+1
+Logic
+Print row number repeatedly
+Start from 5 and decrease
+
+5. Floyd's Triangle 
+Question
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+Logic
+Use one variable num
+Print num
+Increment num
+
+6. Reverse Number Triangle
+Question
+1
+21
+321
+4321
+54321
+Logic
+Print from i to 1
+
+7. Right Shifted Number Triangle
+Question
+12345
+2345
+345
+45
+5
+Logic
+Start printing from row number
+
+8. Palindrome Number Pyramid 
+Question
+ 1
+ 121
+ 12321
+1234321
+123454321
+Logic
+Spaces
+Ascending Numbers
+Descending Numbers
+
+9. Continuous Number Triangle
+Question
+1
+2 3
+4 5 6
+7 8 9 10
+Logic
+Keep incrementing number
+
+10. Binary Number Pattern 
+Question
+1
+01
+101
+0101
+10101
+Logic
+Use (i+j)%2

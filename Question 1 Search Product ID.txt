@@ -1,0 +1,163 @@
+Question 1: Search Product ID
+
+An online store maintains a list of product IDs.
+
+Given a product ID, find whether it exists in the inventory.
+
+If found, print its position; otherwise print "Product Not Found".
+
+Input
+5
+101
+205
+309
+412
+515
+309
+Output
+Found at Index 2
+
+
+Question 2: Find Student Roll Number
+
+A school stores roll numbers of students.
+
+Search for a given roll number using Linear Search.
+
+Input
+4
+11
+22
+33
+44
+22
+Output
+Roll Number Found at Index 1
+
+Question 3: Search Mobile Number
+
+
+Given a list of mobile numbers, check whether a particular number exists.
+
+Input
+5
+9876
+8765
+7654
+6543
+5432
+6543
+Output
+Number Found at Index 3
+
+
+Question 4: Count Occurrences
+
+Given an array and a number, count how many times it appears.
+
+Input
+6
+10
+20
+10
+30
+10
+40
+10
+Output
+3
+
+
+Question 5: First Occurrence
+
+Find the first occurrence of a target element.
+
+Input
+7
+5
+8
+3
+8
+9
+8
+1
+8
+Output
+1
+
+
+Question 6: Last Occurrence
+
+Find the last occurrence of a target element.
+
+Input
+7
+5
+8
+3
+8
+9
+8
+1
+8
+Output
+5
+
+
+Question 7: Find Maximum Element
+
+Find the largest element in the array.
+
+Input
+5
+12
+45
+78
+23
+56
+Output
+78
+
+Question 8: Find Minimum Element
+
+Find the smallest element in the array.
+
+Input
+5
+12
+45
+78
+23
+56
+Output
+12
+
+
+Question 9: Check Even Number Exists
+
+Search whether an even number exists in the array.
+
+Input
+5
+1
+3
+5
+8
+9
+Output
+Even Number Found
+
+
+Question 10: Find Index of Largest Element
+
+Print the index position of the largest element.
+
+Input
+5
+12
+45
+78
+23
+56
+Output
+2

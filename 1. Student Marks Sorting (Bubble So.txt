@@ -1,0 +1,220 @@
+1. Student Marks Sorting (Bubble Sort)
+
+Question: A teacher wants to arrange student marks in ascending order.
+
+Input:
+
+[75, 90, 65, 85, 70]
+
+Output:
+
+[65, 70, 75, 85, 90]
+2. Product Price Sorting (Bubble Sort)
+
+Question: Sort product prices from low to high.
+
+Input:
+
+[1200, 500, 2500, 800]
+
+Output:
+
+[500, 800, 1200, 2500]
+3. Student Ranking (Selection Sort)
+
+Question: Arrange student scores in ascending order.
+
+Input:
+
+[88, 72, 95, 60, 81]
+
+Output:
+
+[60, 72, 81, 88, 95]
+4. Book ID Sorting (Selection Sort)
+
+Question: Arrange book IDs in ascending order.
+
+Input:
+
+[104, 101, 109, 102]
+
+Output:
+
+[101, 102, 104, 109]
+5. Employee Age Sorting (Selection Sort)
+
+Question: Sort employee ages from youngest to oldest.
+
+Input:
+
+[35, 28, 42, 25, 31]
+
+Output:
+
+[25, 28, 31, 35, 42]
+6. Card Sorting (Insertion Sort)
+
+Question: Sort cards in a player's hand.
+
+Input:
+
+[7, 3, 9, 1, 5]
+
+Output:
+
+[1, 3, 5, 7, 9]
+7. Entered Marks Sorting (Insertion Sort)
+
+Question: Sort marks entered one by one.
+
+Input:
+
+[60, 50, 70, 40]
+
+Output:
+
+[40, 50, 60, 70]
+8. Contact Number Sorting
+
+Question: Sort contact numbers.
+
+Input:
+
+[9876, 4567, 1234, 7890]
+
+Output:
+
+[1234, 4567, 7890, 9876]
+9. Student Record Sorting (Merge Sort)
+
+Question: Sort student records efficiently.
+
+Input:
+
+[55, 12, 89, 34, 23, 78]
+
+Output:
+
+[12, 23, 34, 55, 78, 89]
+10. Customer Account Sorting (Merge Sort)
+
+Question: Sort account numbers.
+
+Input:
+
+[5678, 1234, 8901, 3456]
+
+Output:
+
+[1234, 3456, 5678, 8901]
+11. Product Search Result Sorting (Quick Sort)
+
+Question: Sort product prices.
+
+Input:
+
+[1000, 200, 1500, 500, 800]
+
+Output:
+
+[200, 500, 800, 1000, 1500]
+12. Cricket Score Sorting (Quick Sort)
+
+Question: Sort player scores.
+
+Input:
+
+[45, 78, 23, 90, 67]
+
+Output:
+
+[23, 45, 67, 78, 90]
+13. Employee Salary Sorting
+
+Question: Sort salaries in ascending order.
+
+Input:
+
+[45000, 30000, 60000, 25000]
+
+Output:
+
+[25000, 30000, 45000, 60000]
+14. Railway Ticket Sorting
+
+Question: Sort ticket numbers.
+
+Input:
+
+[567, 123, 789, 345]
+
+Output:
+
+[123, 345, 567, 789]
+15. Patient ID Sorting
+
+Question: Sort patient IDs.
+
+Input:
+
+[205, 101, 309, 150]
+
+Output:
+
+[101, 150, 205, 309]
+16. Roll Number Sorting
+
+Question: Arrange roll numbers.
+
+Input:
+
+[25, 12, 30, 18]
+
+Output:
+
+[12, 18, 25, 30]
+17. Nearly Sorted Data
+
+Question: Sort a nearly sorted list.
+
+Input:
+
+[10, 20, 30, 25, 40]
+
+Output:
+
+[10, 20, 25, 30, 40]
+18. Customer ID Merge
+
+Question: Sort customer IDs.
+
+Input:
+
+[38, 27, 43, 3, 9, 82, 10]
+
+Output:
+
+[3, 9, 10, 27, 38, 43, 82]
+19. Sports Score Sorting
+
+Question: Display top scores in sorted order.
+
+Input:
+
+[120, 95, 150, 80, 110]
+
+Output:
+
+[80, 95, 110, 120, 150]
+20. Large Dataset Sorting
+
+Question: Sort the given dataset.
+
+Input:
+
+[99, 12, 45, 67, 23, 89, 34]
+
+Output:
+
+[12, 23, 34, 45, 67, 89, 99]
