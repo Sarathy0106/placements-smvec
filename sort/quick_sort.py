@@ -1,3 +1,6 @@
+# QUICK SORT  
+# LOGIC :  
+# Find the pivot element and partition the array around it.
 arr = [10.80,30,90,30]
 pivot = arr[0]
 left = []
