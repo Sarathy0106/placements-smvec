@@ -1,0 +1,231 @@
+oops questions :
+
+
+1. Single Inheritance
+Question 1
+
+Create a class Person with:
+
+name
+age
+display_person()
+
+Create a class Student that inherits Person and adds:
+
+roll_no
+display_student()
+
+Print all details.
+
+Question 2
+
+Create a class Vehicle with:
+
+brand
+show_brand()
+
+Create a class Car inheriting Vehicle with:
+
+model
+show_model()
+
+Access both methods using a Car object.
+
+2. Multilevel Inheritance
+Question 3
+
+Create the hierarchy:
+
+Animal
+   ↓
+Dog
+   ↓
+Puppy
+
+Methods:
+
+Animal → eat()
+Dog → bark()
+Puppy → weep()
+
+Create a Puppy object and call all methods.
+
+Question 4
+
+Create the hierarchy:
+
+Person
+   ↓
+Employee
+   ↓
+Manager
+
+Attributes:
+
+Person → name
+Employee → salary
+Manager → department
+
+Display all details.
+
+3. Multiple Inheritance
+Question 5
+
+Create:
+
+Father      Mother
+     \      /
+      Child
+
+Methods:
+
+Father → bike()
+Mother → jewellery()
+Child inherits both
+
+Call both methods using Child object.
+
+Question 6
+
+Create:
+
+Teacher      Researcher
+       \     /
+       Professor
+
+Methods:
+
+teach()
+research()
+
+Professor should access both.
+
+4. Hierarchical Inheritance
+Question 7
+
+Create:
+
+        Shape
+      /   |   \
+ Circle Rectangle Triangle
+
+Each child class should have its own draw() method.
+
+Question 8
+
+Create:
+
+          Employee
+         /        \
+ Developer      Tester
+
+Methods:
+
+work()
+
+Developer and Tester should inherit Employee.
+
+5. Hybrid Inheritance
+Question 9
+
+Create:
+
+        A
+      /   \
+     B     C
+      \   /
+        D
+
+Methods:
+
+A → methodA()
+B → methodB()
+C → methodC()
+D → methodD()
+
+Call all methods using D object.
+
+Question 10
+
+Create a company structure:
+
+          Employee
+          /      \
+      Manager   Developer
+          \      /
+          TeamLead
+
+TeamLead should access methods from all parent classes.
+
+Constructor-Based Questions
+Question 11
+
+Create:
+
+Person
+   ↓
+Student
+
+Use constructors in both classes and initialize data using super().
+
+Question 12
+
+Create:
+
+Vehicle
+   ↓
+Car
+
+Use constructor inheritance and display:
+
+brand
+model
+price
+Real-Time Questions
+Question 13: Banking System
+Account
+   ↓
+SavingsAccount
+
+Parent:
+
+account_number
+balance
+
+Child:
+
+interest_rate
+
+Display account information.
+
+Question 14: School Management
+Person
+   ↓
+Teacher
+
+Parent:
+
+name
+age
+
+Child:
+
+subject
+
+Display teacher details.
+
+Question 15: Online Shopping
+Product
+   ↓
+Electronics
+
+Parent:
+
+product_name
+price
+
+Child:
+
+warranty
+
+Display complete product information.
