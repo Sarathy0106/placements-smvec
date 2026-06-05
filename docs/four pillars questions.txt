@@ -1,0 +1,200 @@
+four pillars questions:
+
+
+1. Encapsulation
+Scenario:
+
+You are developing a banking application. Customers should not directly modify their account balance.
+
+Question:
+
+Which OOP concept would you use and why?
+
+Answer:
+
+Encapsulation
+
+The balance should be private, and access should be provided through methods like deposit() and withdraw().
+
+2. Encapsulation
+Scenario:
+
+In a Student Management System, students can update their profile, but their registration number should never be changed after creation.
+
+Question:
+
+How would you design this using OOP?
+
+Answer:
+
+Use Encapsulation by making registrationNumber private and providing only a getter method.
+
+3. Abstraction
+Scenario:
+
+You are building an online payment system that supports UPI, Credit Card, and Net Banking.
+
+Question:
+
+Users only need a "Pay" button. They don't need to know the internal payment process.
+
+Which OOP concept applies?
+
+Answer:
+
+Abstraction
+
+Hide complex payment logic and expose only the pay() method.
+
+4. Abstraction
+Scenario:
+
+A car driver uses a steering wheel, accelerator, and brake but doesn't know how the engine works internally.
+
+Question:
+
+Which OOP principle does this represent?
+
+Answer:
+
+Abstraction
+
+Only necessary features are visible; internal implementation is hidden.
+
+5. Inheritance
+Scenario:
+
+An organization has Employees, Managers, and Developers.
+
+All have:
+
+name
+salary
+employeeId
+
+Managers additionally have:
+
+teamSize
+
+Developers additionally have:
+
+programmingLanguage
+Question:
+
+Which OOP concept helps avoid code duplication?
+
+Answer:
+
+Inheritance
+
+Create a base Employee class and extend it with Manager and Developer.
+
+6. Inheritance
+Scenario:
+
+You are building a vehicle application.
+
+Common properties:
+
+brand
+speed
+
+Specific vehicles:
+
+Car
+Bike
+Truck
+Question:
+
+How would you design it?
+
+Answer:
+
+Use Inheritance
+
+Vehicle → Parent Class
+
+Car, Bike, Truck → Child Classes
+
+7. Polymorphism
+Scenario:
+
+A notification system sends messages through:
+
+Email
+SMS
+WhatsApp
+
+All have a method called sendNotification().
+
+Question:
+
+Which OOP concept allows the same method name with different implementations?
+
+Answer:
+
+Polymorphism
+
+Each class implements sendNotification() differently.
+
+8. Polymorphism
+Scenario:
+
+A Shape application contains:
+
+Circle
+Rectangle
+Triangle
+
+All have a method called calculateArea().
+
+Question:
+
+What OOP concept is being used?
+
+Answer:
+
+Polymorphism
+
+Same method name, different calculations.
+
+9. Mixed Scenario
+Scenario:
+
+In a Food Delivery App:
+
+Customer details should be protected.
+Different payment methods should be supported.
+PremiumCustomer should inherit Customer features.
+Delivery charges should be calculated differently for Bike and Car delivery.
+Question:
+
+Identify the OOP concepts used.
+
+Answer:
+Requirement	OOP Pillar
+Protect customer data	Encapsulation
+Payment interface	Abstraction
+PremiumCustomer extends Customer	Inheritance
+Different delivery charge calculation	Polymorphism
+10. Complete Real-Time Scenario
+Scenario:
+
+You are designing a Hospital Management System.
+
+Requirements:
+
+Patient medical records should not be directly accessible.
+Doctors and Nurses share common employee details.
+Different staff members calculate salaries differently.
+Users should not know internal database operations.
+Question:
+
+Which OOP pillars are used?
+
+Answer:
+Requirement	OOP Concept
+Secure medical records	Encapsulation
+Hide database logic	Abstraction
+Doctor/Nurse from Employee	Inheritance
+Different salary calculations	Polymorphism
